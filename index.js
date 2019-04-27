@@ -6,9 +6,15 @@ function upperCaseCustomerName() {
 }
 
 function setBestCustomer() {
-  bestCustomer = 'not bob'
+  bestCustomer = 'not bob';
 }
 
 function overwriteVestCustomer() {
-  bestCustomer = "Girly"
+  bestCustomer = "Girly";
+}
+
+const leastFavoriteCustomer = "Hal"
+
+function changeLeastFavoriteCustomer() {
+  leastFavoriteCustomer = "George";
 }
